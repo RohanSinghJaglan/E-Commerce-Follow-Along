@@ -1,4 +1,3 @@
-
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   // exporting tailwind css to these files for styling
@@ -6,5 +5,4 @@ export default {
     extend: {},
   },
   plugins: [],
-}
-
+};
