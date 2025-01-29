@@ -50,4 +50,10 @@ Added functionality to handle secure user data storage.
 
 The repository is publicly accessible.
 
+## Milestone -8 Progress:
+Three files were made:
+1)Product.jsx in Components/auth to store info. about product details.
+2)user.js
+3)data/js
+We have createrd a reusable card component with props for product details.
 
