@@ -213,7 +213,7 @@ Database Interaction:
 
 Retrieved user data from the database based on the input credentials.
 Verified if the user exists and validated their credentials.
-Milestone 8
+###Milestone 8
 🎯 Milestone 8: Building a Product Card Component & Structuring the Homepage
 
 📌 Objective
@@ -227,3 +227,10 @@ Develop a product card component to display essential product details.
 Render multiple product cards dynamically using props and mapping.
 
 Create an engaging homepage layout with proper structuring.
+
+###Milestone-9
+In this milestone we have:
+ Create the form for products
+
+ This form takes multiple product images as input.
+ 
