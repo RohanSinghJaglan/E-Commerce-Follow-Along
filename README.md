@@ -351,3 +351,23 @@ Dynamically map the fetched data to product card components.
 
 Render the product cards in a grid or list format for a user-friendly interface.
 
+### Milestone 12:
+### Backend: Creating the Endpoint
+Set Up the Route
+
+Create a new route in your backend API that filters products based on the user's email.
+Fetch Data from MongoDB
+
+Query the database to retrieve all products associated with the authenticated user’s email.
+Send Response
+
+Return the filtered products as JSON to the frontend.
+
+ ### Frontend: Fetch and Display Products
+Create a Function to Fetch Products
+
+Use fetch or Axios to call the backend endpoint.
+Display the Products Dynamically
+
+Pass the fetched data to a ProductCard component for rendering.
+
