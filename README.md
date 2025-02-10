@@ -15,7 +15,7 @@ Project Overview:- 1.MERN Integration: Full-stack JavaScript development for sea
 
 8.Payment Gateway:Seamless integration with Stripe/PayPal for secure transactions, Handles payment success, failure, and refunds.
 
-Milestone 2 overview:-
+### Milestone 2 overview:-
 New Feature Added:
 
 -->Login Page: A user-friendly login page has been added, featuring: Email and password validation. A "Show/Hide Password" toggle for enhanced user experience. Error handling for invalid email format and password length. Loading state to indicate the process of authentication. Navigation to a signup page for new users.
@@ -24,7 +24,7 @@ New Feature Added:
 
 -->Installation & Setup: Clone the repository. Run npm install to install dependencies. Start the development server with npm start.
 
-Milestone 3 - Backend Setup and Integration
+### Milestone 3 - Backend Setup and Integration
 Overview
 In this milestone, you will set up the foundational elements for your backend. You'll organize your backend code efficiently, configure a Node.js server to handle API requests, connect to MongoDB for data management, and implement basic error handling to ensure smooth server operation. By the end of this milestone, your application will be able to handle requests and store data in MongoDB with proper error feedback.
 
@@ -98,14 +98,14 @@ Prerequisitesa
 Node.js installed
 MongoDB instance running
 .env file with the following variables:
-Milestone 5 -Adding SignUp Page
+### Milestone 5 -Adding SignUp Page
 Created a Sign-Up Page in React.
 
 Implemented form validation for: Name (required) Email (valid format required) Password (minimum 2 characters) Password Confirmation (must match password)
 
 Used React Router for navigation.
 
-Milestone 6
+### Milestone 6
 Project Overview
 Milestone 6 expands on the knowledge gained in previous milestones, focusing on advanced backend development concepts. This milestone emphasizes API design, integration, and optimization while deepening the understanding of database interactions and server performance.
 
@@ -228,13 +228,13 @@ Render multiple product cards dynamically using props and mapping.
 
 Create an engaging homepage layout with proper structuring.
 
-###Milestone-9
+### Milestone-9
 In this milestone we have:
  Create the form for products
 
  This form takes multiple product images as input.
 
- ###Milestone 10: Product Management Enhancements
+ ### Milestone 10: Product Management Enhancements
 
 
 Milestone 10 focuses on refining the product creation and management process. This includes improving the form submission flow, handling errors effectively, and ensuring a seamless user experience.
@@ -371,3 +371,28 @@ Display the Products Dynamically
 
 Pass the fetched data to a ProductCard component for rendering.
 
+### Milestone 13: Updating Data in MongoDB
+
+📌 Objective
+
+In this milestone, we will implement an update feature for our application. This will include:
+
+Creating an endpoint in the backend to update data in MongoDB.
+
+Adding an "Edit" button to the product card in the frontend.
+
+Pre-filling a form with existing product details when the edit button is clicked.
+
+Allowing users to modify the data and save changes.
+
+ Backend: Implementing Update Endpoint
+
+Step 1: Define the Update Route
+
+In your Express server, create an endpoint that will handle update requests.
+Step 2: Connect Endpoint to MongoDB
+
+Ensure your database connection is set up in server.js or app.js.
+Step 3: Add an Edit Button to Product Card
+
+Modify your product card component to include an "Edit" button.
