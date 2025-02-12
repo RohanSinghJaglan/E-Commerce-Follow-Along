@@ -451,3 +451,12 @@ Use CSS or a styling framework (e.g., Tailwind CSS, Bootstrap) to ensure the nav
 
 Import and include the Nav component in each page’s layout.
 
+### Milestone 16: Product Page and Add to Cart
+We have created a new page that displays all the product data.
+
+Fetched product details (name, price, image, description, etc.).
+Display them in a structured layout.
+Added -Add quantity selection and "Add to Cart" button to each product.
+
+Include an input field or buttons for selecting quantity.
+Ensure the "Add to Cart" button updates the cart with the selected quantity.
