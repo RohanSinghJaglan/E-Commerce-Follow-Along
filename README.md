@@ -418,3 +418,36 @@ Added a delete button in the frontend to call the endpoint.
 Ensured that the backend and frontend interact correctly to delete data.
 
 This milestone provides a detailed understanding of handling DELETE operations in a full-stack application.
+
+
+### Milestone 15: Creating a Responsive Navbar
+
+Overview
+
+In this milestone, we will create a new Nav component that includes navigation links to all major pages of the application. The navbar will be designed to be responsive, ensuring a smooth user experience across different screen sizes. The Nav component will be added to all pages for seamless navigation.
+
+Steps to Complete Milestone 15
+
+1. Create the Nav Component
+
+Inside the components folder, create a new file named Nav.js (or Nav.jsx if using React with JSX syntax).
+
+Define a functional component that contains navigation links to:
+
+Home
+
+My Products
+
+Add Product
+
+Cart
+
+Use the Link component from React Router (if applicable) to enable navigation between pages.
+
+2. Style the Navbar for Responsiveness
+
+Use CSS or a styling framework (e.g., Tailwind CSS, Bootstrap) to ensure the navbar adapts to different screen sizes.
+3. Add the Nav Component to All Pages
+
+Import and include the Nav component in each page’s layout.
+
