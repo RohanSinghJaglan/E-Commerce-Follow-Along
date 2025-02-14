@@ -460,3 +460,9 @@ Added -Add quantity selection and "Add to Cart" button to each product.
 
 Include an input field or buttons for selecting quantity.
 Ensure the "Add to Cart" button updates the cart with the selected quantity.
+
+### Milestone 17: Cart Functionality
+📌 Overview
+In this milestone, we enhance our application by implementing a cart feature where users can store selected products.
+
+In Milestone 17, we implemented a cart functionality by modifying the User Schema and creating a Cart Schema to store product details. We also built an API endpoint to receive product data and save it in the cart. This allows users to add products to their cart, ensuring the data is persistently stored in the database. 
