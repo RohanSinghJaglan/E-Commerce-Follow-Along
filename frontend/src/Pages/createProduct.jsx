@@ -112,6 +112,7 @@ const CreateProduct = () => {
         }
     };
 
+
     return (
         <>
             <NavBar />
