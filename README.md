@@ -465,4 +465,27 @@ Ensure the "Add to Cart" button updates the cart with the selected quantity.
 📌 Overview
 In this milestone, we enhance our application by implementing a cart feature where users can store selected products.
 
-In Milestone 17, we implemented a cart functionality by modifying the User Schema and creating a Cart Schema to store product details. We also built an API endpoint to receive product data and save it in the cart. This allows users to add products to their cart, ensuring the data is persistently stored in the database. 
+In Milestone 17, we implemented a cart functionality by modifying the User Schema and creating a Cart Schema to store product details. We also built an API endpoint to receive product data and save it in the cart. This allows users to add products to their cart, ensuring the data is persistently stored in the database.
+
+###  Milestone 18
+### Milestone 18 📝
+
+1. Create a Backend Endpoint for Cart Page
+
+We need to create an API endpoint that allows the frontend to fetch the cart items for a specific user.
+
+2. Implement the Endpoint Logic
+
+Retrieve the user's email from the request.
+
+Query the database to fetch all products inside the cart associated with that user.
+
+Return the cart data as a JSON response.
+
+3. Test the Endpoint
+
+Use tools like Postman or cURL to send requests and verify that the correct data is returned.
+
+
+### Milestone 19:
+In this milestone, we have implemented a cart page that displays the products added to the cart using the backend API from Milestone 18. Each product in the cart has an option to increase or decrease its quantity using + and - buttons. When a user interacts with these buttons, the frontend calls newly created backend endpoints to update the product quantity in real time. The backend includes two endpoints: one to increase the product quantity and another to decrease it, ensuring that the quantity does not go below one. This milestone enhances the user experience by allowing seamless cart management and provides a smooth and interactive shopping experience.
