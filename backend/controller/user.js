@@ -9,6 +9,7 @@ const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 // const jwt = require("jsonwebtoken");
 // const sendMail = require("../utils/sendMail");
 const bcrypt = require("bcryptjs");
+const user = require("../model/user");
 require("dotenv").config();
 
 router.post(
@@ -97,4 +98,22 @@ router.get(
     });
   })
 );
+
+router.get("/profile", catchAsyncErrors(async(req, res, next)->{
+  const {email} =req.query;
+  if(!email){
+    return next(new ErrorHandler("Please provide an email",400));
+
+  }
+  res.status(200).json({
+    success:true;
+    user:{
+      name:user.name,
+      email: user.email,
+      phoneNumber: user.phoneNumber,
+      avatarUrl: user.avatar.url
+      
+    },
+  });
+}));
 module.exports = router;
