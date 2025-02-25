@@ -492,3 +492,18 @@ In this milestone, we have implemented a cart page that displays the products ad
 
 ### Milestone 20
 In this milestone, we have implemented a backend endpoint that retrieves all user data and sends it via email. Additionally, we have created a frontend profile page that displays the user's profile photo, name, and email in one section, while another section lists their saved addresses. If no addresses are found, the page displays a message stating "No address found." To enhance usability, we have also included an "Add address" button, allowing users to easily manage their addresses. This milestone helps in understanding how to structure and display user profile data efficiently while integrating backend functionality for data retrieval and communication.
+
+
+### Milestone 21
+In this milestone, we will create a frontend form to collect user address details. The form will capture:
+
+Country
+City
+Address Line 1
+Address Line 2
+Zip Code
+Address Type
+Features
+A dedicated address form page.
+State management to store user input.
+Navigation from the profile page when the "Add Address" button is clicked.
