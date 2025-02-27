@@ -507,3 +507,7 @@ Features
 A dedicated address form page.
 State management to store user input.
 Navigation from the profile page when the "Add Address" button is clicked.
+
+### Milestone 22
+
+In this milestone, we have created an endpoint in backend that stores the address inside user profile in database. The endpoint receives the address from address form in front and adds the address to the address array inside the user collection.
