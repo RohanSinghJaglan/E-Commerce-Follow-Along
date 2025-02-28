@@ -511,3 +511,9 @@ Navigation from the profile page when the "Add Address" button is clicked.
 ### Milestone 22
 
 In this milestone, we have created an endpoint in backend that stores the address inside user profile in database. The endpoint receives the address from address form in front and adds the address to the address array inside the user collection.
+
+### Milestone 23
+In this milestone, we will add a "Place Order" button inside the cart page, which navigates to a Select Address page where users can choose a delivery address. The backend will provide an endpoint to fetch user addresses, and we will create a Mongoose schema to store order details, including user ID, selected address, cart items, total price, and order status. This feature ensures a smooth checkout experience and sets the foundation for order management in the system.
+
+### Milestone 24
+In this milestone, we will create an Order Confirmation Page to display the ordered products, selected delivery address, and total cart value. The page will include a "Place Order" button at the bottom to finalize the purchase. This step enhances the user experience by providing a clear summary before confirming the order
