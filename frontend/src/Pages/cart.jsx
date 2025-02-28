@@ -1,7 +1,8 @@
+
 // Cart.jsx
 import React, { useState, useEffect } from 'react';
-import CartProduct from '../Components/auth/CartProduct';
-import NavBar from '../Components/auth/nav';
+import CartProduct from '../components/auth/CartProduct';
+import NavBar from '../components/auth/nav';
 import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
 
 const Cart = () => {
@@ -10,7 +11,7 @@ const Cart = () => {
   const navigate = useNavigate(); // Initialize navigate
 
   useEffect(() => {
-    fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'rohansj123@gmail.com'}`)
+    fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'ayan10092018@gmail.com'}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
