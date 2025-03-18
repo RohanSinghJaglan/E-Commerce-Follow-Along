@@ -559,3 +559,25 @@ Start the backend server.
 Send a GET request to the order endpoint using Postman or a browser.
 
 Verify that order details are returned as a response.
+
+### Milestone 27: My Orders Page  
+
+## Overview  
+In this milestone, we created a My Orders page for our frontend. This page fetches and displays all user orders by sending a GET request to the my-orders endpoint using the user’s email.  
+
+## Learning Goals 🎯  
+- Implement a frontend page to display user orders.  
+- Send a request to retrieve order data from the backend.  
+- Integrate the My Orders page into the navbar for easy access.  
+
+## Implementation Steps 📝  
+1. Created a My Orders page.  
+2. Sent a GET request to fetch user orders using their email.  
+3. Displayed the retrieved orders on the page.  
+4. Updated the navbar to include the My Orders page for better navigation.  
+
+## Submission Guidelines 📥  
+- Code pushed to the GitHub repository.  
+- Repository is publicly accessible.  
+- README updated with milestone details.  
+- Repository link submitted as per guidelines. 
