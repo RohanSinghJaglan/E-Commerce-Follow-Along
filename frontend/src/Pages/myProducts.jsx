@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Myproduct from "../components/auth/myproduct";
+import Myproduct from "../Components/auth/myProduct";
 import NavBar from "../components/auth/nav";
 
 export default function MyProducts() {

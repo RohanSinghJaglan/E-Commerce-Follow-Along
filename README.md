@@ -517,3 +517,23 @@ In this milestone, we will add a "Place Order" button inside the cart page, whic
 
 ### Milestone 24
 In this milestone, we will create an Order Confirmation Page to display the ordered products, selected delivery address, and total cart value. The page will include a "Place Order" button at the bottom to finalize the purchase. This step enhances the user experience by providing a clear summary before confirming the order
+
+###  Milestone 25 - Place Order Button
+
+## Overview
+
+In this milestone, we implemented a "Place Order" button on the cart/checkout page. Clicking the button logs "Order Successful" in the console.
+
+## Key Features
+
+Added a "Place Order" button.
+
+Implemented a click event to log "Order Successful" in the console.
+
+## Testing Steps
+
+Navigate to the cart/checkout page.
+
+Click the "Place Order" button.
+
+Open the browser console and check for the message "Order Successful."

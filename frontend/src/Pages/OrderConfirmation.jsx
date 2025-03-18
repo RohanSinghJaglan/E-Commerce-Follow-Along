@@ -1,7 +1,7 @@
 // OrderConfirmation.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import NavBar from '../components/auth/nav';
+import NavBar from '../Components/auth/nav';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const OrderConfirmation = () => {
@@ -45,6 +45,9 @@ const OrderConfirmation = () => {
                 // Map cart items to include full image URLs
                 const processedCartItems = cartData.cart.map(item => ({
                     _id: item.productId._id,
+                    // 
+                    product:item.productId._id,
+                    // 
                     name: item.productId.name,
                     price: item.productId.price,
                     images: item.productId.images.map(imagePath => `http://localhost:8000${imagePath}`),
@@ -67,7 +70,7 @@ const OrderConfirmation = () => {
     const handlePlaceOrder = async () => {
         try {
             setLoading(true);
-            const response = await axios.post('http://localhost:8000/api/v2/order/place', {
+            const response = await axios.post('http://localhost:8000/api/v2/order/place-order', {
                 email,
                 addressId,
             });
