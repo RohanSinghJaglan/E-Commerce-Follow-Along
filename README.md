@@ -576,8 +576,21 @@ In this milestone, we created a My Orders page for our frontend. This page fetch
 3. Displayed the retrieved orders on the page.  
 4. Updated the navbar to include the My Orders page for better navigation.  
 
-## Submission Guidelines 📥  
-- Code pushed to the GitHub repository.  
-- Repository is publicly accessible.  
-- README updated with milestone details.  
-- Repository link submitted as per guidelines. 
+### Milestone 28: Cancel Order Feature  
+
+## Overview  
+In this milestone, we enhanced the My Orders page by adding a Cancel Order button and implemented a backend endpoint to handle order cancellations.  
+
+## Learning Goals 🎯  
+- Enable users to cancel placed orders.  
+- Implement order cancellation logic in the frontend and backend.  
+- Prevent the cancel button from appearing for already canceled orders.  
+
+## Implementation Steps 📝  
+1. Added a Cancel Order button for each order in the My Orders page.  
+2. Ensured the button is hidden for already canceled orders.  
+3. Created a backend endpoint to receive an order-id, find the order, update its status to canceled, and save the changes.  
+
+  
+
+
