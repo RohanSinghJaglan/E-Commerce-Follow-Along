@@ -16,5 +16,5 @@ import Profile from "./Pages/profile.jsx";
 import CreateAddress from "./Pages/createAddress.jsx";
 import SelectAddress from "./Pages/SelectAddress.jsx";
 import OrderConfirmation from "./Pages/OrderConfirmation.jsx";
-import MyOrdersPage from ".Pages/myorders.jsx";
+import MyOrdersPage from "./Pages/myorders.jsx";
 export { SignupPage, LoginPage, Home, CreateProduct, MyProducts, Cart, ProductDetails, Profile, CreateAddress,SelectAddress,OrderConfirmation,MyOrdersPage };
