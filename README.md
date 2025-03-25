@@ -597,3 +597,13 @@ In this milestone, we enhanced the My Orders page by adding a Cancel Order butto
 ### Milestone 29 - PayPal Integration (Setup)
 
 In this milestone, we set up PayPal for online payments. First, create a PayPal developer account and log in to the PayPal Developer Dashboard. Navigate to Sandbox Accounts, create an account if needed, and save the User ID. Next, obtain and save your Client ID from the sandbox account. Update the order confirmation page to include two payment options: Cash on Delivery (COD) and Online Payment (PayPal). Implement radio buttons to toggle between these options, ensuring the PayPal button appears when Online Payment is selected. In the next milestone, we will integrate the PayPal payment buttons into the application.
+
+### Milestone 30 - Using paypal api & Integrating Online Payments
+In this milestone we have downloaded npm package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc.
+
+Implemented online payment using PayPal API using the client key you created earlier.
+
+
+
+### Milestone 31: Global State Management with React-Redux
+In this milestone, we integrate Redux for state management in a React project. First, install react-redux using npm install react-redux. Next, create a store folder containing store.js and userActions.js. Inside store.js, configure a Redux store with a userReducer function to manage the user's email state. In userActions.js, define a function setEmail to update the global state with the user's email. Finally, in index.js, wrap the App component with the Provider component, passing the store as a prop to enable global state management across the application.
