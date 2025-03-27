@@ -607,3 +607,8 @@ Implemented online payment using PayPal API using the client key you created ear
 
 ### Milestone 31: Global State Management with React-Redux
 In this milestone, we integrate Redux for state management in a React project. First, install react-redux using npm install react-redux. Next, create a store folder containing store.js and userActions.js. Inside store.js, configure a Redux store with a userReducer function to manage the user's email state. In userActions.js, define a function setEmail to update the global state with the user's email. Finally, in index.js, wrap the App component with the Provider component, passing the store as a prop to enable global state management across the application.
+
+### Milestone 32 : Using Redux For Global State Management
+In this milestone, we have used dispatch method to store the mail in inside the global state.
+In all the remaining pages acc the mail stored in global state using useSelector
+

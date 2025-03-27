@@ -8,11 +8,20 @@ const product= require('./controller/product')
 const path=require('path')
 const orders = require('./controller/orders')
 
+
+const corsOptions = {
+    origin: 'http://localhost:5173', // Allow only your frontend origin
+    credentials: true, // Allow cookies and credentials
+  };
+
 app.use(express.json());
+app.use(cors(corsOptions));
 app.use(cookieParser());
 app.use(cors());
 app.use("/",express.static("uploads"));
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
+
+
 
 // Configuration for environment variables
 if (process.env.NODE_ENV !== "PRODUCTION") {
