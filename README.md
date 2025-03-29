@@ -620,3 +620,12 @@ Used sign method to create an JWT token with mail and ID.
 Gave maxAge to set expire time.
 
 Added the cookie inside the response that helps you to store the cookie inside browser.
+
+### Milestone 34:
+Get the token from the browser cookie and send it to the server
+In backend write an middleware function to validate that JWT token
+In every page make sure that this steps will happen so that user cannot go to that page with out login
+
+### Milestone 35:
+Making sure that both frontend and backend were correctly deployed and working properly.
+
